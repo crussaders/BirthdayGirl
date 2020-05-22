@@ -5,10 +5,10 @@
 }
 
 #videoBG {
-    position: center;
+    position: relative;
     z-index: -1;
     width: 100%;
-    height: auto;
+    height:auto;
 }
 
 
@@ -28,7 +28,7 @@
 } 
 a{
     position: relative;
-    top:90px;
+    top:50px;
     display: inline-block;
     padding: 15px 30px;
     color: #f5680a;
