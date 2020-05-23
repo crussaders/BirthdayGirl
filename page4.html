@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HappyBirythday</title>
+    <link rel="stylesheet" type="text/css" href="page4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body>
+
+
+    <div class="container">    
+        
+        <div class="box" id="box_1">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p1"></div>
+                <h2 class="full_name">Satnam Kaur</h2>
+                
+                <ul class="social">
+                    <li>SMART</li>
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>Satnam Kaur</h2>
+                <p class="info">
+                  Wishing you many many happy returns
+                  of the day to you SATNAM. May GOD bless
+                  you with all the love and care you deserve. I wish that all your dream comes true<br>
+                  #happyBirthdayMissKaur
+                </p>
+            </div>
+        </div>
+
+       
+        <div class="box" id="box_2">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p2"></div>
+                <h2 class="full_name">Gorgeous</h2>
+                <ul class="social">
+                    <li>INTILLIGENT</li>
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>Gorgeous</h2>
+                <p class="info">
+                    Don’t ever change! Stay as amazing as you are.May this special day bring you endless joy and tons of precious memories!. The joy is in the air because your special day is here!<br>
+                    #happyBirthdayGorgeous
+                </p>
+            </div>
+        </div>
+
+       
+        <div class="box" id="box_3">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p3"></div>
+                <h2 class="full_name">CutiPie</h2>
+                
+                <ul class="social">
+                    <li>CUTE</li>
+                  
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>CutiPie</h2>
+                <p class="info">
+                    Let your all the dreams to be on fire and light your birthday candles with that. This day, you need to float with lots of smiles on your lovely face. <br>
+                    #happyBirthdayCutiePie
+                    
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="box" id="box_4">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p4"></div>
+                <h2 class="full_name">Smile Queen</h2>
+                
+                <ul class="social">
+                    <li>CARING</li>
+                   
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>Smile Queen</h2>
+                <p class="info">
+                    Wishing you greatest birthday ever, full of love and joy from the moment you open your eyes in the morning until you sleep for the night.
+                    You know what did little birdie saying today to you?  Oh! It said it is your birthday today<br>
+                    #happyBirthdaySmileQueen
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="box" id="box_5"">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p5"></div>
+                <h2 class="full_name">Idiot</h2>
+                
+                <ul class="social">
+                    <li>POSER</li>
+                
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>Idiot</h2>
+                <p class="info">
+                    You are another year older. Have a blast! Wishing you the best of the best!. May this birthday of yours mark the beginning of a wonderful period of time in your life!<br>
+                    #happyBirthdayIdiot
+
+                </p>
+            </div>
+        </div>
+
+       
+        <div class="box" id="box_6">
+            <div class="front" onclick="frontFunction()">
+                <div class="profile_photo p6"></div>
+                <h2 class="full_name">Miss Attitude</h2>
+                
+                <ul class="social">
+                    <li>KIND</li>
+                 
+                </ul>
+            </div>
+            <div class="back" onclick="backFunction()">
+                <h2>Miss Attitude</h2>
+                <p class="info">
+                    May the dream that means most to you, start coming true this year.On your birthday friends wish you many things, but I will wish you only two: always and never. Never feel blue and always be happy!<br>
+                    #happyBirthdayMissAttitude
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="button">
+        <a href="#">
+        =>
+        </a>    
+     </div>
+
+
+    <script>
+
+        let box = document.querySelectorAll(".box");
+
+        function frontFunction() {
+            box.forEach((x) => x.addEventListener("click", function () {
+                this.classList.add("active");
+            }))
+        }
+
+        function backFunction() {
+            box.forEach((x) => x.addEventListener("click", function () {
+                this.classList.remove("active");
+            }))
+        }
+
+    </script>
+
+</body>
+</html>
