@@ -6,7 +6,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background:  #fff;
 }
 
 .button{
@@ -166,7 +166,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    background: #fff;
+    background:  #f4c2c2;
     transform: rotateX(-180deg);
     backface-visibility: hidden;
     transform-style: preserve-3d;
@@ -191,7 +191,7 @@ h2 {
     backface-visibility: hidden;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
-    background: #fff;
+    background:  #ffd1dc;
 }
 .box.active > .back {
     transform: rotateX(0deg) ;
